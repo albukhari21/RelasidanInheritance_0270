@@ -14,7 +14,7 @@ public:
     }
 
     ~manusia() {
-        cout << name << " mati\n";
+        cout << name << " mati\n" ;
     }
 };
 
