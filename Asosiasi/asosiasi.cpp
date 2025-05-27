@@ -37,3 +37,9 @@ public:
     void tambahPasien(pasien* pPasien);
     void cetakPasien();
 };
+
+// Definisi fungsi-fungsi
+void pasien::tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
+}
+
